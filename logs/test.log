@@ -1,0 +1,2 @@
+2024-12-03 08:48:36 [main] INFO  tests.BaseTest - WebDriver and report are setup.
+2024-12-03 08:48:40 [main] INFO  tests.BaseTest - WebDriver closed, please check report.
