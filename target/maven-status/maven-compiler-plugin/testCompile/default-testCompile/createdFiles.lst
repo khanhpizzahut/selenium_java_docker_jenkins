@@ -1,3 +1,7 @@
-sasff.class
+tests/GoogleSearchTest_FullFlow.class
+tests/GoogleSearchTest_RemoteDocker_Parallel.class
 tests/GoogleSearchTest.class
-SeleniumTest.class
+tests/GoogleSearchTest_FullFlow_Parallel.class
+base/test.class
+tests/BaseTest.class
+tests/GoogleSearchTest_RemoteDocker.class

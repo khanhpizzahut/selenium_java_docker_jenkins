@@ -1,3 +1,7 @@
-/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/Selenium/src/test/java/SeleniumTest.java
-/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/Selenium/src/test/java/sasff.java
-/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/Selenium/src/test/java/tests/GoogleSearchTest.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/base/test.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/BaseTest.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/GoogleSearchTest.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/GoogleSearchTest_FullFlow.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/GoogleSearchTest_FullFlow_Parallel.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/GoogleSearchTest_RemoteDocker.java
+/Users/dongmonkhanh/Documents/GitHub/Java_2024/Selenium_crossbrowser/selenium_java_docker_jenkins/src/test/java/tests/GoogleSearchTest_RemoteDocker_Parallel.java
