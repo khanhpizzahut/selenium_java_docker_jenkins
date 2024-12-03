@@ -27,7 +27,8 @@ pipeline {
             steps {
                 script {
                     // Chạy các bài kiểm tra Maven
-                    sh 'mvn clean test'
+                    sh ' mvn clean test -DsuiteXmlFile=GoogleSearchTest_RemoteDocker_Parallel.xml
+'
                 }
             }
         }
