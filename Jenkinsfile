@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        // Đảm bảo rằng /usr/local/bin được thêm vào biến môi trường PATH
+        // Setup PATH
         PATH = "${env.PATH}:/usr/local/bin"
     }
 
     stages {
 //         stage('Checkout') {
 //             steps {
-//                 // Lấy mã nguồn từ Git (hoặc các hệ thống SCM khác)
+//                 //
 //                 checkout scm
 //             }
 //         }
@@ -17,7 +17,7 @@ pipeline {
         stage('Start Docker Compose') {
             steps {
                 script {
-                    // Chạy docker-compose up
+                    // run docker-compose up
                     sh 'docker-compose up -d' // -d là để chạy container ở chế độ background
                 }
             }
@@ -26,7 +26,7 @@ pipeline {
         stage('Run Maven Tests') {
             steps {
                 script {
-                    // Chạy các bài kiểm tra Maven
+                    // run test with Maven
                     sh 'mvn clean test -DsuiteXmlFile=GoogleSearchTest_RemoteDocker_Parallel.xml'
                 }
             }
@@ -35,7 +35,7 @@ pipeline {
         stage('Shutdown Docker Compose') {
             steps {
                 script {
-                    // Dừng các container sau khi kiểm tra xong
+                    // stop container
                     sh 'docker-compose down'
                 }
             }
@@ -44,7 +44,7 @@ pipeline {
 
     post {
         always {
-            // Cleanup hoặc các hành động sau khi pipeline kết thúc
+            // Cleanup
             echo 'Pipeline finished.'
         }
     }
